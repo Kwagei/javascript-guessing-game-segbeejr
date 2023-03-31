@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="guess.css">
+  <title>Guessing Game</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="div1">
+        <div> LIVES: <span id="lives-display"></span></div>
+        
+      </div>
+      <input id="restart-button" type="button" value="START/RESTART">
+      
+    </header>
+
+    
+    <h1 align="center">Guess a Number</h1>
+    <p align="center">Try to guess the number between 1 and 100.</p>
+
+      <div id="button-container"></div>
+    
+    <audio id="correct-sound" src="./open-new-level-143027.mp3"></audio>
+    <audio id="wrong-sound" src="./buzzer-or-wrong-answer-20582.mp3"></audio>
+      
+
+
+
+
+    <script src="./guess.js"></script>
+  </div>  
+</body>
+</html>
